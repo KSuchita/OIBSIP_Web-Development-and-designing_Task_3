@@ -1,0 +1,88 @@
+/* Apply red gradient background and global font settings */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ff4e50, #f9d423); /* red to yellow gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+/* Container styling */
+.container {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  width: 340px;
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #e63946;
+}
+
+/* Form elements */
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #444;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #e63946;
+}
+
+/* Convert button */
+button {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1.2rem;
+  background: linear-gradient(to right, #e63946, #f3722c);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #c02735, #d65b1e);
+  transform: translateY(-2px);
+}
+
+/* Result display */
+.result {
+  margin-top: 1.8rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2c3e50;
+  background-color: #ffe9e9;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ffcccc;
+}
